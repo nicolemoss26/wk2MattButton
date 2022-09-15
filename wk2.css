@@ -1,0 +1,90 @@
+body{
+    background-image: url("matt_africa5-1heroimage.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    margin: 0%;
+  }
+.menu{
+    overflow: hidden;
+    background-color: black;
+}
+.menu a {
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: steelblue;}
+ul{
+    background-repeat: no-repeat;
+    display: flex;
+    float:right;
+    padding-right: 10%;
+}
+li a {
+    display:block;
+    padding: 20px;
+    margin: 0px;
+    flex:auto;
+} 
+h1,h2 {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10%;
+}
+h1{
+    font-size: 46px;
+    text-align: right;
+    font-weight: 100;
+}
+h2{
+    font-size: 32px;
+    font-weight: 100;
+    padding-right: 20%;
+}
+h4{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: right;
+    padding-right: 15%;
+}
+footer{
+    position:fixed;
+    background-color: steelblue;
+    bottom:0;
+    width: 100%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    
+}
+form{
+    padding-left: 30%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+h5{
+    text-align: left;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    padding-left: 10%;
+    font-weight: bold;
+}
+.button {
+    background-color: yellowgreen; 
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
